@@ -66,7 +66,7 @@ describe('Recipes', function(){
           .send(updateData);
       })
       .then(function(res) {
-        expect(res).to.have.status(204);
+        res.should.have.status(204);
       });
   });
 
