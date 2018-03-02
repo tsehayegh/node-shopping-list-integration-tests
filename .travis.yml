@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: https://git.heroku.com/thawing-woodland-81562.git
+  provider: heroku
+  api_key:
+    secure: qSOqkExoOPy8UdfuS7W79MTtZdvqzRjOO6aXGx3X8C5Gppzz8c/T37GWWbX6oVOY+mke4c7YgI41kpw9sTpQgF0eaUgzcb6VS3OO/fcVQwP6c0LlRJB77eutYeFV29HAbw9MYiZzjpg7v5kILTlVaByTRpHU3Q56U2tGDZ56Zr9zZ04lm2J9aOo2Pe++S0rBuR0qSGOtXAL7SNx1kX1wY0iV2Nr+F7FjnBOTshIBH05oBp46iD/vlTe/XXPsh15HgDbWshk0PDxMmoTle8wwOSiZHPtoayXTiVcYnMkpcTmNdkTBQ/44x+99XLy84an4VCMHP8JEp/Y95jKVG/Kcaz8zV2WcWQSgUuRhOCHdl/qdyDAeWWjEHhmwAUwZZ3JQGJbcKMQSsrzBmVnsjINtYWLazPniG3j14LgvVAE+uDQj6BUX087aUx7w1U55slrOCv96kBLsGmy4F9JHaE1WxgyFDM3foA8s5pFlWeWbdCeDKxuCMoaf6IgKu1nUqKmpQ232+5DgWEdvFcgWZyF081oJ6644c0f2BTCOypJhUtV7Z3UroPXcvZZ4ppaAEI/0+jG+RD/3B+NrjKspt7nkpNBCzwQ1echJ590WWMPVXhnxlt8t5Tf2qR2W5Xzk7P4tU2nimvgT/9PVCJhhSJOOcPZ7gq0nHbXEYnmGbxNBiiE=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: tsehayegh/node-shopping-list-integration-tests
